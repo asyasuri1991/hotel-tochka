@@ -1716,6 +1716,7 @@ fieldset {
     position: absolute;
     top: -160px;
     right: 0;
+    left: 540px;
     z-index: -1;
 }
 
