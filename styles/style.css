@@ -1707,14 +1707,15 @@ fieldset {
 /* стили первого блока */
 
 .main-banner {
+    position:relative;
     display: flex;
     justify-content: space-between;
 }
 
 .main-banner__img {
     position: absolute;
-    top: 0;
-    right: 390px;
+    top: -160px;
+    right: 0;
     z-index: -1;
 }
 
