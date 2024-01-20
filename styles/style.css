@@ -395,6 +395,7 @@ fieldset {
     display: flex;
     flex-flow: column wrap;
 }
+
 .feedback__form input {
     width: 480px;
     height: 60px;
@@ -1707,7 +1708,7 @@ fieldset {
 /* стили первого блока */
 
 .main-banner {
-    position:relative;
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
