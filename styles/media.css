@@ -1,0 +1,263 @@
+@media screen and (width <=1200px) {
+
+    .page-header__nav {
+        margin-left: 0;
+    }
+}
+
+@media screen and (width < 600px) {
+    .page-section {
+        padding: 60px 0;
+    }
+
+    .page-section--white {
+        background-color: var(--color-white);
+        padding: 60px 0;
+    }
+
+    .page-section__cnt {
+        padding-bottom: 60px;
+    }
+
+    .page-footer {
+        padding: 40px 0 20px 0;
+    }
+
+    .page-header__nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: calc(var(--header-height) + 1px);
+        width: 100%;
+        z-index: 2;
+        padding: 40px 20px;
+        border-bottom: 1px solid var(--color-border);
+
+        background-color: #fff;
+    }
+
+    .page-header__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page-header__links {
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    .page-header__toggle-menu {
+        display: block;
+        padding: 0;
+    }
+
+    .hamburger-box,
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before {
+        width: 32px;
+    }
+
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before {
+        height: 3px;
+    }
+
+    .page-header__toggle-menu.is-active~.page-header__nav {
+        display: block;
+    }
+
+    .page-header__tel span {
+        display: none;
+    }
+
+    .banner {
+        height: 80px;
+        background-position: center;
+    }
+
+    .banner__title {
+        padding: 25px;
+        font-size: 24px;
+    }
+
+    .offers__title {
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .offers-box {
+        padding: 0 45px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .offers-box__img {
+        width: 340px;
+    }
+
+    .offers-box__title {
+        font-size: 18px;
+    }
+
+    .offers-box__text {
+        font-size: 16px;
+    }
+
+    .sign-up {
+        padding: 0 45px;
+        gap: 20px;
+    }
+
+    .sign-up__title {
+        font-size: 20px;
+    }
+
+    .sign-up__text {
+        font-size: 16px;
+    }
+
+    .sign-up input {
+        width: 280px;
+        height: 40px;
+        padding: 12px 20px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .sign-up button {
+        width: 180px;
+        height: 40px;
+        font-size: 16px;
+
+    }
+
+    .feedback {
+        padding: 0 56px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .feedback__content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feedback__title {
+        font-size: 18px;
+    }
+
+    .feeback__text {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .feedback__form input {
+        width: 318px;
+        height: 40px;
+        padding: 12px 20px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .feedback__form button {
+        width: 318px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .page-footer__block {
+        padding: 0 45px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .page-footer__buttons {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-primary .btn-secondary {
+        width: 180px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .page-footer__menu-title {
+        font-size: 16px;
+        margin-bottom: 20px;
+
+    }
+
+    .page-footer__menu-list a {
+        font-size: 14px;
+    }
+
+    .page-footer__menu-list li {
+        font-size: 14px;
+    }
+
+    .info-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-panel__item {
+        width: 286px;
+    }
+
+    .info-panel__text {
+        font-size: 14px;
+    }
+
+    .info-text {
+        padding: 0px;
+        font-size: 18px;
+
+    }
+
+    .equipment__title {
+        font-size: 18px;
+    }
+
+    .equipment-slider__text {
+        font-size: 16px;
+    }
+
+    .teambuilding-scenario {
+        gap: 40px;
+    }
+
+    .teambuilding-scenario__box {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .teambuilding-scenario__title {
+        font-size: 20px;
+    }
+
+    .teambuilding-scenario__text {
+        font-size: 14px;
+    }
+
+    .teambuilding-scenario__price {
+
+        font-size: 16px;
+    }
+
+}
